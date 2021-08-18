@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         movies.add(annihilation);
 
         Movie theMartin = new Movie();
-        theMartin.poster = R.drawable.annihilation;
+        theMartin.poster = R.drawable.the_martian;
         theMartin.name = "The Martin";
         theMartin.category = "Science Fiction";
         theMartin.releaseDate = "October 02, 2015";
