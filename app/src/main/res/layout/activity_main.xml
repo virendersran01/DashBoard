@@ -169,7 +169,7 @@
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="@dimen/_20sdp"
                 android:layout_height="@dimen/_20sdp"
-                android:background="@color/favorite_background"
+                android:background="@drawable/background_favorite"
                 android:padding="@dimen/_5sdp"
                 android:src="@drawable/ic_favorite"
                 android:tint="@color/white"
@@ -206,6 +206,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/textRecommended"/>
 
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/moviesViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginBottom="@dimen/_24sdp"
+        android:paddingStart="@dimen/_50sdp"
+        android:paddingEnd="@dimen/_50sdp"
+        app:layout_constraintBottom_toTopOf="@id/textRecommended"
+        app:layout_constraintTop_toBottomOf="@id/layoutSearch" />
 
 
     <me.ibrahimsn.lib.SmoothBottomBar
