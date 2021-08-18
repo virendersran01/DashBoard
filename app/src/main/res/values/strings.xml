@@ -4,4 +4,10 @@
     <string name="profile">Profile</string>
     <string name="saved">Saved</string>
     <string name="favorites">Favorites</string>
+    <string name="search">search</string>
+    <string name="resident_evil_the_final_chapter">Resident Evil - The Final Chapter</string>
+    <string name="science_fiction">Science Fiction</string>
+    <string name="december_14_2014">December 14, 2014</string>
+    <string name="recommended">Recommended</string>
+    <string name="view_all">View All</string>
 </resources>
