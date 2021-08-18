@@ -37,10 +37,35 @@
         android:layout_marginStart="@dimen/_8sdp"
         android:src="@drawable/ic_arrow_down"
         android:tint="@color/primary_label"
-        app:layout_constraintBottom_toBottomOf="@id/imageCategory"
-        app:layout_constraintStart_toEndOf="@id/imageCategory"
-        app:layout_constraintTop_toTopOf="@id/imageCategory"/>
+        app:layout_constraintBottom_toBottomOf="@id/textCategory"
+        app:layout_constraintStart_toEndOf="@id/textCategory"
+        app:layout_constraintTop_toTopOf="@id/textCategory"/>
 
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:src="@drawable/ic_notifications"
+        android:tint="@color/secondary_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    
+    <LinearLayout
+        android:id="@+id/layoutSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:background="@drawable/background_serach"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16sdp"
+        >
+
+    </LinearLayout>
 
 
     <me.ibrahimsn.lib.SmoothBottomBar
